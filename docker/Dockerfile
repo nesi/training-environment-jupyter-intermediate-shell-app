@@ -65,3 +65,6 @@ RUN wget -nv https://github.com/GenomicsAotearoa/shell-for-bioinformatics/releas
 
 # install jupyterlab
 RUN pip3 --no-cache-dir install jupyterlab
+
+# install jupyterlab accessible themes
+RUN pip3 --no-cache-dir install jupyterlab-accessible-themes
