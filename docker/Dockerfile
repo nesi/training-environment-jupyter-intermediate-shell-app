@@ -68,3 +68,6 @@ RUN pip3 --no-cache-dir install jupyterlab
 
 # install jupyterlab accessible themes
 RUN pip3 --no-cache-dir install jupyterlab-accessible-themes
+
+# remove default .bashrc
+RUN rm /root/.bashrc
